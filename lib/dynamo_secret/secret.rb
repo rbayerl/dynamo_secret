@@ -1,7 +1,7 @@
 require 'highline/import'
 require 'dynamo_secret/dynamodb'
 require 'dynamo_secret/gpg'
-require 'dynamo_secret/iam'
+require 'dynamo_secret/kms'
 
 module DynamoSecret
   class Secret
