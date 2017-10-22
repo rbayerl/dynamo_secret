@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dynamo_secret (0.1.1)
+    dynamo_secret (0.1.2)
       aws-sdk-dynamodb
       aws-sdk-iam
       aws-sdk-kms
