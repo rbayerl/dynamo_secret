@@ -1,3 +1,6 @@
+require 'aws-sdk-kms'
+require 'dynamo_secret/iam'
+
 module DynamoSecret
   class Kms
     def initialize(config)

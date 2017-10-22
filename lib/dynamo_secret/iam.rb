@@ -1,3 +1,5 @@
+require 'aws-sdk-iam'
+
 module DynamoSecret
   class IAM
     def user_id

@@ -1,3 +1,10 @@
+require 'highline/import'
+require 'optparse'
+require 'yaml'
+require 'dynamo_secret/dynamodb'
+require 'dynamo_secret/secret'
+require 'dynamo_secret/version'
+
 module DynamoSecret
   class CLI
     def initialize(args)

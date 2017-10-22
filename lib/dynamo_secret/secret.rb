@@ -1,3 +1,8 @@
+require 'highline/import'
+require 'dynamo_secret/dynamodb'
+require 'dynamo_secret/gpg'
+require 'dynamo_secret/iam'
+
 module DynamoSecret
   class Secret
     def initialize(config)

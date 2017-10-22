@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'dynamo_secret/secret'
 
 SingleCov.covered!
 

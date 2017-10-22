@@ -1,3 +1,7 @@
+require 'aws-sdk-dynamodb'
+require 'gpgme'
+require 'dynamo_secret/iam'
+
 module DynamoSecret
   class DynamoDB
     def initialize(config)
